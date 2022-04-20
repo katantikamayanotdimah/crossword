@@ -16,7 +16,7 @@ base_font = pygame.font.Font(None, 32)
 user_text = ''
   
 # create rectangle
-input_rect = pygame.Rect(80, 50, 14, 32)
+input_rect = pygame.Rect(80, 50, 20, 30)
 
 pygame.display.set_caption("project word")
 screen.fill((255,255,255))
