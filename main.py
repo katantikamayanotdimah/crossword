@@ -36,11 +36,11 @@ for i in range(6):
 
   # color_active stores color(lightskyblue3) which
 # gets active when input box is clicked by user
-color_active = pygame.Color('red')
+color_active = pygame.Color('#0000ffff')
   
 # color_passive store color(chartreuse4) which is
 # color of input box.
-color_passive = pygame.Color('blue')
+color_passive = pygame.Color('#0000ffff')
 color = color_passive
   
 active = False
