@@ -24,6 +24,8 @@ xpose = 50
 width = 31
 for i in range(6):
   pygame.draw.rect(screen, (200,111,111), (xpose+width,50,30,30), border_radius=5)
+ #text_surface = base_font.render(user_text, True, (255, 255, 255))
+  #screen.blit(text_surface, (xpose+width, 50))
   width = width + 31
 ypose = -12
 height = 31
@@ -84,7 +86,7 @@ while True:
           
     # draw rectangle and argument passed which should
     # be on screen
-    pygame.draw.rect(screen, color, input_rect)
+    #pygame.draw.rect(screen, color, input_rect)
   
     text_surface = base_font.render(user_text, True, (255, 255, 255))
       
@@ -93,7 +95,7 @@ while True:
       
     # set width of textfield so that text cannot get
     # outside of user's text input
-    input_rect.w = max(100, text_surface.get_width()+10)
+    #input_rect.w = max(100, text_surface.get_width()+10)
       
     # display.flip() will update only a portion of the
     # screen to updated, not full area
